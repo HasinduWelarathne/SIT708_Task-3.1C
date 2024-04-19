@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/congratsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Congratulations!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congratsText"
+        android:layout_centerHorizontal="true"
+        android:text="Your score: 0/5"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/newQuizButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreText"
+        android:layout_marginTop="32dp"
+        android:text="Take New Quiz"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newQuizButton"
+        android:layout_marginTop="16dp"
+        android:text="Finish"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
